@@ -1,0 +1,114 @@
+/*  */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #720760;
+    color: #fff;
+    min-height: 100px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(252, 139, 139);
+}
+header a:hover {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(252, 139, 139);
+}
+
+header li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: lavender;
+}
+
+.navlink {
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+
+#regform {
+    width: 70%;
+    padding: 10px;
+}
+
+#regform input {
+    padding: 15px;
+    margin: 10px;
+}
+
+input[type="email"]{
+    width: 20%;
+}
+
+.registerdiv { 
+    align-items: center; 
+    margin-left: 30%;
+    width: auto;
+}
+.registerdiv hr{ 
+    border: 5px #000000;
+} 
+.registerdiv span{
+    text-align: left;
+    font-weight: bold; 
+}
+#regform input{
+    width: 50%;
+    padding: 15px;
+    margin: 10px; 
+}
+#regform select {
+    width: 50%;
+    padding: 15px;
+    margin: 10px; 
+}
+span{
+    text-align: left;
+}
+
+.sign_title h1{
+    text-align: center;
+    width: 50%; 
+    height: 60px; 
+    background-color: #000; 
+    color: #fff;  
+    margin-left:20%;
+}
+ 
+.invalid-input {
+    border-color: red;
+}
+
+
+/* My custom css */
+  
+/*  */
+.registerdiv input[type='submit'] {
+    width: 50%;
+    padding: 15px;
+    margin: 10px; 
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: orange;
+    width:30%; 
+    float: right; 
+    color: #fff;
+}
+ 
+#message_container{
+    background-color: green;
+    color: #fff;
+}
